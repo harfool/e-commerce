@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body{
+  color: rgb(186, 208, 17);
+  background-color: black;
+  font-family: "Playwrite AU SA", serif;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.top-strip{
+  border-top: 1px solid rgb(133, 128, 128);
+  border-bottom: 1px solid rgb(135, 128, 128);
+}
